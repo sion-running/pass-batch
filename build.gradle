@@ -41,6 +41,8 @@ dependencies {
 
 	implementation 'org.apache.commons:commons-lang3:3.12.0'
 
+	implementation 'org.springframework.batch:spring-batch-integration' // AsyncItemProcessor, AsyncItemWriter
+
 	// ### TEST ###
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.batch:spring-batch-test'
